@@ -1,8 +1,6 @@
 //تابع fetch برای گرفتن داده از یک آدرس
-fetch(
-  "https://coffee.zq5.ir//wp-json/wc/v3/products?consumer_key=ck_a08eb811ed706404bc398af0ff90459715b6f52e&consumer_secret=cs_a2edd70300f154c63f097cbfc7cb8f9560e4f22d"
-)
-  //then یعنی وقتی که fetch با موفقیت جواب داد
+fetch()
+  // "Write Your API Site in fetch"
 
   //response.json() یعنی پاسخ سرور رو به فرمت json تبدیل کن
   .then((response) => response.json())
