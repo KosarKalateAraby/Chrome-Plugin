@@ -1,0 +1,13 @@
+{
+  "name": "Product from Host",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [],
+  "host_permissions": ["http://coffee.zq5.ir/*"]
+}
